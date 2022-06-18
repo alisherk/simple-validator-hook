@@ -20,7 +20,7 @@
     "build": "tsc",
     "clear": "rm -rf dist",
     "prepublishOnly": "tsc",
-    "pub": "git add . && git commit -m $MESSAGE && npm version patch && npm run build && npm publish && npm run clear"
+    "pub": "npm run clear && git add . && git commit -m $MESSAGE && npm version patch && npm run build && npm publish"
   },
   "devDependencies": {
     "@types/ramda": "^0.28.14",

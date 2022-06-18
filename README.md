@@ -12,3 +12,6 @@ form. If data is validated, handleSubmit function will have access to
 validated data which you can use as you wish like sending the data
 to a server
 ``
+
+## Licence 
+MIT @ [alisherk](https://github.com/alisherk).
