@@ -6,7 +6,6 @@ npm  install simple-validator-hook
 ``
 
 ## Use 
-``
 This hook returns a number of useful methods to validate inputs on the
 form. If data is validated, handleSubmit function will have access to
 validated data which you can use as you wish like sending the data
@@ -16,8 +15,6 @@ The hook accepts three arguments
  - default form values
  - yup schema which is an object with required form properties
  - debounced time in milliseconds which throttles keyboard input
-
-``
 
 ## Licence 
 MIT @ [alisherk](https://github.com/alisherk).
