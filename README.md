@@ -1,1 +1,1 @@
-# Getting Started with Create React App
+# Simple yet very efficient hool for validating web forms
