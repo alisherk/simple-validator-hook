@@ -1,6 +1,6 @@
 import './App.css';
 import { object, string, SchemaOf } from 'yup';
-import useForm from './hook';
+import useFormValidator from 'simple-validator-hook';
 
 interface Form {
   email: string;
@@ -18,9 +18,9 @@ const SCHEMA: SchemaOf<Form> | any = object({
 });
 
 function App() {
-  const { errors, disabled, handleChange, handleSubmit } = useForm(
+  const { errors, disabled, handleChange, handleSubmit } = useFormValidator(
     DEFAULT,
-    SCHEMA, 
+    SCHEMA,
     600
   );
 
