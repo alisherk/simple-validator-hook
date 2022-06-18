@@ -1,6 +1,11 @@
 # Simple yet very efficient hool for validating web forms
 
-## Usage   
+## To install, run: 
+``
+npm  install simple-validator-hook
+``
+
+## Use 
 ``
 This hook returns a number of useful methods to validate inputs on the
 form. If data is validated, handleSubmit function will have access to
