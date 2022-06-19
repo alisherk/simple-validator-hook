@@ -19,7 +19,7 @@ Ensure that each html input in the form contains unique name prop
 Internally, we use Yup to run valiation on each unique value given to name prop.
 
 ## Use 
-This hook returns a number of useful methods to validate inputs in html forms. If data is validated, handleSubmit function will have access to validated data which you can any logic on.
+This hook returns a number of useful methods to validate inputs in html forms. If data is validated, handleSubmit function will have access to validated data which you can run any logic on or post it to your server.
 
 The hook throttles keyboard input to ensure validation does not run on each keystroke which slows down unnecessary React renders.
 
