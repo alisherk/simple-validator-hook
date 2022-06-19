@@ -1,6 +1,6 @@
 {
   "name": "simple-validator-hook",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "author": "alisherk",
   "repository": "https://github.com/alisherk/simple-validator-hook.git",
   "main": "dist/index.js",
