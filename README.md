@@ -3,7 +3,7 @@
 ##
 Make sure you have npm and Node installed on your machine.
 ``
-[Installation guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+Installation guide [here](https://docs.npmjs.comdownloading-and-installing-node-js-and-npm).
 ``
 
 ## To install, run: 
