@@ -1,20 +1,35 @@
-# Simple yet very efficient hool for validating web forms
+# Simple yet very efficient React hook for validating web forms
+
+##
+Make sure you have npm and Node installed on your machine.
+``
+[Installation guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+``
 
 ## To install, run: 
 ``
 npm  install simple-validator-hook
 ``
 
+## Important
+Ensure that each html input in the form contains unique name prop
+``
+<input type='text' name='password' />
+``
+Internally, we use Yup to run valiation on each unique value given to name prop.
+
 ## Use 
-This hook returns a number of useful methods to validate inputs on the
-form. If data is validated, handleSubmit function will have access to
-validated data which you can use as you wish like sending the data
-to a server or run any logic locally. The hook throttles a number of times of keyboard input which makes forms highly effecient in your apps as opposed to firing on each key press
+This hook returns a number of useful methods to validate inputs in html forms. If data is validated, handleSubmit function will have access to validated data which you can any logic on.
+
+The hook throttles keyboard input to ensure validation does not run on each keystroke which slows down unnecessary React renders.
 
 The hook accepts three arguments
  - default form values
  - yup schema which is an object with required form properties
  - debounced time in milliseconds which throttles keyboard input
+
+The github repository contains a simple React app in the example 
+directory that shows the basic use of this hook.
 
 ## Licence 
 MIT @ [alisherk](https://github.com/alisherk).
